@@ -1,0 +1,25 @@
+# Template information section
+name: "VIPTemplate"
+summary: "Swift VIP module template"
+author: "Vitaliy Ramazanov"
+version: "1.0"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+# View layer
+- {name: View/ViewController.swift, path: Code/View/viewcontroller.swift.liquid}
+- {name: View/ViewController.xib, path: Code/View/viewcontroller.xib.liquid}
+
+# Presenter layer
+- {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
+
+# Interactor layer
+- {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
+
+# Router layer
+- {name: Router/Router.swift, path: Code/Router/router.swift.liquid}
+
+# Contract
+- {name: Contract/Contract.swift, path: Code/Contract/contract.swift.liquid}

@@ -1,2 +1,7 @@
-# VIP_template
-VIP template for iOS
+# Шаблон модуля с VIP архитектурой
+Создает
+1. View в виде ViewController и xib для него
+2. Presenter
+3. Interactor
+4. Router. В данном шаблоне также отвечает за создание модуля
+5. Файл Contract, содержащий описание протокол взаимодействия компонентов модуля
