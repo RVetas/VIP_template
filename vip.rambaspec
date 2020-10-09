@@ -9,17 +9,17 @@ license: "MIT"
 
 code_files:
 # View layer
-- {name: View/ViewController.swift, path: Code/View/viewcontroller.swift.liquid}
-- {name: View/ViewController.xib, path: Code/View/viewcontroller.xib.liquid}
+- {name: View/ViewController.swift, path: View/viewcontroller.swift.liquid}
+- {name: View/ViewController.xib, path: View/viewcontroller.xib.liquid}
 
 # Presenter layer
-- {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
+- {name: Presenter/Presenter.swift, path: Presenter/presenter.swift.liquid}
 
 # Interactor layer
-- {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
+- {name: Interactor/Interactor.swift, path: Interactor/interactor.swift.liquid}
 
 # Router layer
-- {name: Router/Router.swift, path: Code/Router/router.swift.liquid}
+- {name: Router/Router.swift, path: Router/router.swift.liquid}
 
 # Contract
-- {name: Contract/Contract.swift, path: Code/Contract/contract.swift.liquid}
+- {name: Contract/Contract.swift, path: Contract/contract.swift.liquid}
